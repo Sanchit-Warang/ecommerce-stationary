@@ -2,6 +2,8 @@ import React from 'react'
 import Banner from '../components/Banner'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 
 
 
@@ -16,6 +18,8 @@ const Home = () => {
             </center>
             <br></br>
             <Categories/>
+
+            <Footer/>
             
         </div>
     )
