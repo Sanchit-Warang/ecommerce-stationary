@@ -1,8 +1,9 @@
-import { Card , Button } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
+import '../css/Item.css'
 function Item({ item }) {
     return (
         <div>
-            <Card style={{ width: '18rem', color:'white', backgroundColor:'grey'  }}>
+            <Card className="item">
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                     <Card.Title>{item.title}</Card.Title>
