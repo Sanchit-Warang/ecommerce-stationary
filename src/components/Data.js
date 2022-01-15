@@ -18,6 +18,6 @@ const Data = [
         id : 4,
         title : 'Paper Weight',
         category : 'Office'
-    }
+    },  
 ]
 export default Data
