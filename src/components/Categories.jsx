@@ -9,7 +9,7 @@ const Categories = () => {
     <Card.Img style={{width:'auto', height: '300px'}} variant="top" src="/office.jpg" />
     <Card.Body>
         <center>
-      <Card.Title>Office Essesntials</Card.Title>
+      <Card.Title>Office Essentials</Card.Title>
       </center>
     </Card.Body>
     
