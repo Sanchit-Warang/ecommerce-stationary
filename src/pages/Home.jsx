@@ -3,11 +3,13 @@ import Banner from '../components/Banner'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-
-
+import Data from '../components/Data.js'
+import ItemList from '../components/ItemList'
+import { useState } from 'react'
 
 
 const Home = () => {
+    const [items , setItems] = useState(Data)
     return (
         <div>
             <Navbar/>
@@ -18,6 +20,7 @@ const Home = () => {
             </center>
             <br></br>
             <Categories/>
+            <ItemList items = {items}/>
 
             <Footer/>
             
