@@ -1,6 +1,6 @@
 import React from 'react'
-import { Card, Row, Col, CardGroup } from 'react-bootstrap'
-
+import { Card, Row, Col, CardGroup, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 const Categories = () => {
     return (
         <div>
@@ -9,7 +9,10 @@ const Categories = () => {
     <Card.Img style={{width:'auto', height: '300px'}} variant="top" src="/office.jpg" />
     <Card.Body>
         <center>
-      <Card.Title>Office Essesntials</Card.Title>
+      <Card.Title>Office Essentials </Card.Title>
+      </center>
+      <center>
+      <Link to='/categories'>Shop Now</Link>
       </center>
     </Card.Body>
     
