@@ -6,12 +6,14 @@ import Footer from '../components/Footer'
 import Data from '../components/Data.js'
 import ItemList from '../components/ItemList'
 import { useState } from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 const Home = () => {
     const [items , setItems] = useState(Data)
     return (
         <div>
+            
             <Navbar/>
             <Banner/>
             <br></br>
@@ -21,8 +23,13 @@ const Home = () => {
             <br></br>
             <Categories/>
             <ItemList items = {items}/>
-
             <Footer/>
+            <Switch>
+            <Route path='/categories' component={ItemList } />
+            </Switch>
+            
+          
+           
             
         </div>
     )
