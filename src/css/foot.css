@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    min-height: 100vh;
+    background : #ede7f6;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+}
+footer .contain {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+footer .contain .sec h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .contain .sec h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background:#f00;
+}
+footer .contain .sec p {
+    color: #fff;
+}
+.sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 10px;
+
+}
+.sci li {
+    list-style: none;
+    grid-gap: 10px;
+}
+.sci li a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: #222;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sci li a:hover{
+    background: #f00;
+}
+.quickLinks {
+    position: relative;
+}
+.quickLinks li {
+    list-style: none;
+}
+.quickLinks li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quickLinks li a:hover {
+    color: #fff;
+}
+
+
+.info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+.info li span {
+    color: #fff;
+
+}
+.info a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+.info a:hover {
+    color: #fff;
+}
+.copyrightText{
+    background: #111 ;
+    padding: 8px 100px;
+    text-align: center;
+    color: #fff;
+}
