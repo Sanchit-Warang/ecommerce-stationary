@@ -7,6 +7,7 @@ import Data from '../components/Data.js'
 import ItemList from '../components/ItemList'
 import { useState } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Cat from '../components/Cat'
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
             <ItemList items = {items}/>
             <Footer/>
             <Switch>
-            <Route path='/categories' component={ItemList } />
+            <Route path='/categories' component={Cat} />
             </Switch>
             
           
