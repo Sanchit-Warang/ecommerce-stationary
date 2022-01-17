@@ -44,12 +44,12 @@ const Footer = () => {
                         <li>
                             <span><FaMapMarkerAlt color='#fff' font-size='20px' /></span>
                             <span>Kazi Sayed Street <br />
-                                Masjid Bandar West <br />Mumbai, Maharashtra 400003</span>
+                                Masjid bandar West <br />Mumbai, Maharashtra 400003</span>
                         </li>
-                        {<li>
+                        <li>
                             <span class="phone"><FaPhoneAlt color='#fff' font-size='20px' /></span>
                             <p><a href="tel:+918850330868">+91-8850330868</a></p>
-                        </li>}
+                        </li>
                         <li>
                             <span><FaEnvelope color='#fff' font-size='20px' /></span>
                             <p><a href="mailto:patelstationary@gmail.com">patelstationary@gmail.com</a></p>
