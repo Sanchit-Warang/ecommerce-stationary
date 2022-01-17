@@ -4,11 +4,13 @@ import { FaFacebookF,FaTwitter,FaYoutube,FaInstagram,FaMapMarkerAlt,FaPhoneAlt,F
 
 const Footer = () => {
     return (
-            <><footer>
+            <body>
+            <footer>
             <div class="contain">
                 <div class="sec aboutus">
                     <h2>About Us</h2>
-                    <p>Patel Stationary, is your one stop online shop for a huge variety of stationery products and other essential office supplies. Buy stationery items at great price from patel Stationery shop - online stationery store near me. Find the best notebooks, pen, pencils, glue, crayons and save big on discounts. Order now and pay cash on delivery.</p>
+                    <p>Patel Stationary, is your one stop online shop for a huge variety of stationery products and other essential office supplies. Buy stationery items at great price from patel Stationery shop - online stationery store near me. Find the best notebooks, pen, pencils, glue, crayons and save big on discounts. Order now and pay cash on delivery.
+                    </p>
                     <ul class="sci">
                         <li><a href="#"><FaFacebookF color='#fff' font-size='20px' /></a></li>
                         <li><a href="#"><FaTwitter color='#fff' font-size='20px' /></a></li>
@@ -55,10 +57,13 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </footer><div class="copyrightText">
+        </footer>
+            <div class="copyrightText">
                 <p>
                     Copyright &copy; 2022 Patel Stationery. All Rights Reserved.
                 </p>
-            </div></>
+            </div>
         </body>
     )
+}
+export default Footer
