@@ -60,5 +60,5 @@ const Footer = () => {
                     Copyright &copy; 2022 Patel Stationery. All Rights Reserved.
                 </p>
             </div></>
-        </body>
     )
+}
