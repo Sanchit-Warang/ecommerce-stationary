@@ -6,35 +6,36 @@ import Footer from '../components/Footer'
 import Data from '../components/Data.js'
 import ItemList from '../components/ItemList'
 import { useState } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Cat from '../components/Cat'
-
+import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
 
 const Home = () => {
     const [items , setItems] = useState(Data)
     return (
+        <Router>
         <div>
-            
-            <Navbar/>
-            <Banner/>
+        <Navbar/>
+            <Routes>
+            <Route exact path='/' element={
+                <>
+       <Banner/>
             <br></br>
             <center >
             <h1>Categories</h1>
             </center>
             <br></br>
             <Categories/>
-            <ItemList items = {items}/>
+
             <Footer/>
-            <Switch>
-            <Route path='/categories' component={ItemList}  >
-              <ItemList authed={true}/>
-                </Route>
-            </Switch>
-            
-          
-           
-            
+                </>
+            }/>
+
+
+            <Route path='/categories' element={<ItemList items = {items}/>}/>
+
+            </Routes>
+
         </div>
+        </Router>
     )
 }
 
