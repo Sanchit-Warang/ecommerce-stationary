@@ -26,7 +26,9 @@ const Home = () => {
             <ItemList items = {items}/>
             <Footer/>
             <Switch>
-            <Route path='/categories' component={Cat} />
+            <Route path='/categories' component={ItemList}  >
+              <ItemList authed={true}/>
+                </Route>
             </Switch>
             
           
