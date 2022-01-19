@@ -4,9 +4,10 @@ function Item({ item }) {
     return (
         <div>
             <Card className="item">
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={item.imgsrc} />
                 <Card.Body>
                     <Card.Title>{item.title}</Card.Title>
+                    <Card.Title>Rs {item.price}</Card.Title>
                     <Card.Text>
                         {item.category}
                     </Card.Text>
