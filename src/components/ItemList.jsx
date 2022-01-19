@@ -1,12 +1,14 @@
 import Item from '../components/Item'
 import '../css/ItemList.css'
-function ItemList({ items }) {
+function ItemList({ items ,category}) {
     console.log(items)
+    let categoryItems = items.filter((item) => item.category === category)
     return (
         <div className='ItemList' >
             
             {
-                items.map((item) => (
+                
+                categoryItems.map((item) => (
                     <Item key={item.id} item={item} />
                 ))
             }
