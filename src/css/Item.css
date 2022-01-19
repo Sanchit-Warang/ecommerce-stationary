@@ -5,6 +5,7 @@
    color:  white ;
    background-color:  grey ;
    margin: 5px 0px ;
+   position: relative;
    
 }
 .img{
@@ -20,4 +21,9 @@
 }
 .cardText{
    font-size: 10px;
+}
+.btnPosition{
+   position: absolute;
+   top :17rem;
+   left :8rem;
 }

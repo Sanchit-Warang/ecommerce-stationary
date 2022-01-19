@@ -30,7 +30,9 @@ const Home = () => {
             }/>
 
 
-            <Route path='/categories' element={<ItemList items = {items}/>}/>
+            <Route path='/office' element={<ItemList items = {items} category='office'/>}/>
+            <Route path='/school' element={<ItemList items = {items} category='school'/>}/>
+            <Route path='/notebookAndDiaries' element={<ItemList items = {items} category='notebook & diaries'/>}/>
 
             </Routes>
 
