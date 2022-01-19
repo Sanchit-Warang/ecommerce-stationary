@@ -12,7 +12,9 @@ const Categories = () => {
       <Card.Title>Office Essentials </Card.Title>
       </center>
       <center>
+      
       <Link to='/categories'>Shop Now</Link>
+      
       </center>
     </Card.Body>
     
@@ -35,6 +37,7 @@ const Categories = () => {
     </Card.Body>
     
   </Card>
+  
 </CardGroup> 
         </div>
     )
