@@ -1,6 +1,23 @@
 .item{
+   
    width: 25rem;
+   height: 20rem;
    color:  white ;
    background-color:  grey ;
    margin: 5px 0px ;
+   
+}
+.img{
+   height: 10rem;
+   width: 15rem;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   
+   align-items: center;
+}
+.cardText{
+   font-size: 10px;
 }

@@ -295,7 +295,7 @@ const Data = [
     },  
     {
         id: 43,
-        title: 'Epson 003 Ink Cartridge Pack Of 4 For Use Epson L1110,L3110,L3116,L5190,L3156,L3150',
+        title: 'Epson 003 Ink Cartridge Pack Of 4 For Use Epson ',
         category: 'ink & tonner',
         imgsrc:'./images/ink & tonner/Epson 003 Ink Cartridge Pack Of 4 For Use Epson L1110,L3110,L3116,L5190,L3156,L3150.jpg',
         price:'789'
