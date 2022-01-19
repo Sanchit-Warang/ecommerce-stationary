@@ -20,7 +20,7 @@ const navbar = () => {
          <div class="dropdown">
   <button class="dropbtn">Categories</button>
   <div class="dropdown-content">
-    <a href="#">Office Essentials</a>
+    <a href="/categories">Office Essentials</a>
     <a href="#">School Essentials</a>
     <a href="#">Notebooks and Diaries</a>
   </div>

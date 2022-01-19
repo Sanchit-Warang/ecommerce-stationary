@@ -41,6 +41,7 @@ const Categories = () => {
     </Card.Body>
     
   </Card>
+  
 </CardGroup> 
         </div>
     )
