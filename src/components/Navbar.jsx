@@ -7,6 +7,7 @@ import {  ShoppingCartOutlined } from "@material-ui/icons";
 import { Link } from 'react-router-dom';
 
 const navbar = () => {
+  
     return (
         <div className="nav-bg" >
          <container >
@@ -27,7 +28,7 @@ const navbar = () => {
 </div>
 <div className="contact">Contact </div>
 <div className="cart">
-<Badge badgeContent={0} color="primary">
+<Badge  color="primary">
               <ShoppingCartOutlined />
             </Badge>
         </div>

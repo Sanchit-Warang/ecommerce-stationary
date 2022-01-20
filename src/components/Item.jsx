@@ -1,6 +1,9 @@
 import { Card, Button } from "react-bootstrap";
 import '../css/Item.css'
+import React from "react";
+    
 function Item({ item }) {
+    
     return (
         <div>
             <Card className="item">
@@ -13,7 +16,7 @@ function Item({ item }) {
                     </div>
                     <div className="btnPosition">
                     <center>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary" >Add to Cart</Button>
                     </center>
                     </div>
                 </Card.Body>
