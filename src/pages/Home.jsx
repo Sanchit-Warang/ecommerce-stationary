@@ -24,8 +24,7 @@ const Home = () => {
             </center>
             <br></br>
             <Categories/>
-
-            <Footer/>
+             <Footer/>
                 </>
             }/>
 

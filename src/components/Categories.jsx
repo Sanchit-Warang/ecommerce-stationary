@@ -12,7 +12,9 @@ const Categories = () => {
       <Card.Title>Office Essentials </Card.Title>
       </center>
       <center>
-      <Link to='/office'>Shop Now</Link>
+      <Link to='/office'>
+      <Button variant="primary">Shop Now</Button>
+      </Link>
       </center>
     </Card.Body>
     
@@ -24,7 +26,9 @@ const Categories = () => {
       <Card.Title>School Essentials</Card.Title>
       </center>
       <center>
-      <Link to='/school'>Shop Now</Link>
+      <Link to='/school'>
+      <Button variant="primary">Shop Now</Button>
+      </Link>
       </center>
     </Card.Body>
     
@@ -36,7 +40,9 @@ const Categories = () => {
       <Card.Title>Notebooks and Diaries</Card.Title>
       </center>
       <center>
-      <Link to='/notebookAndDiaries'>Shop Now</Link>
+      <Link to='/notebookAndDiaries'>
+      <Button variant="primary">Shop Now</Button>
+      </Link>
       </center>
     </Card.Body>
     
