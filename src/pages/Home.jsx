@@ -35,7 +35,7 @@ const Home = () => {
         setSubTotal(response.cart.subtotal.formatted_with_symbol)
     }
     const handleUpdateCartQty = async (itemID, quantity) =>{
-        const response =  await commerce.cart.update(itemID, quantity)
+        const response =  await commerce.cart.update(itemID, { quantity })
         setCart(response.cart)
         setCartList(response.cart.line_items)
         setTotalItemsCart(response.cart.total_items)
