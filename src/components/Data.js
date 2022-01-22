@@ -137,7 +137,7 @@ const Data = [
         title: 'Classmate Asteroid Geometry Box',
         category: 'school',
         imgsrc:'./images/school essential/Classmate Asteroid Geometry Box.jpg',
-        price:''
+        price:'95'
     },
     {
         id: 21,
@@ -172,7 +172,7 @@ const Data = [
         title: 'Faber Castell Ruler 15cm',
         category: 'school',
         imgsrc:'./images/school essential/Faber Castell Ruler 15cm.jpg',
-        price:''
+        price:'10'
     },
     {
         id: 26,
@@ -242,7 +242,7 @@ const Data = [
         title: 'Classmate A4 Long Book 240 Page (Pack of 6)',
         category: 'notebook & diaries',
         imgsrc:'./images/notebook & diaries/Classmate A4 Long Book 240 Page (Pack of 6).jpg',
-        price:''
+        price:'360'
     },
     {
         id: 36,
