@@ -83,7 +83,7 @@ const Home = () => {
 
             <Route path='/office' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>office</p>'/>}/>
             <Route path='/school' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>school</p>'/>}/>
-            <Route path='/notebookAndDiaries' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='notebook & diaries'/>}/>
+            <Route path='/notebookAndDiaries' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>notebook</p>'/>}/>
             <Route path='/cart'element={<Cart cartList={cartList} subTotal={subTotal} onUpdateCartQty={handleUpdateCartQty} onEmptyCart={handleEmptyCart} onRemoveFromCart={handleRemoveFromCart} />}/>
 
             </Routes>
