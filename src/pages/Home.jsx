@@ -62,7 +62,7 @@ const Home = () => {
     console.log(cart);
     return (
         <Router>
-        <div>
+        
         <Navbar totalItemsCart={totalItemsCart}/>
             <Routes>
             <Route exact path='/' element={
@@ -88,7 +88,7 @@ const Home = () => {
 
             </Routes>
 
-        </div>
+        
         </Router>
     )
 }
