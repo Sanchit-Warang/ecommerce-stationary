@@ -64,7 +64,7 @@ const Home = () => {
     console.log(cart);
     return (
         <Router>
-        
+        <div>
         <Navbar totalItemsCart={totalItemsCart}/>
             <Routes>
             <Route exact path='/' element={
@@ -77,7 +77,7 @@ const Home = () => {
             </center>
             <br></br>
             <Categories/>
-             <Checkout/>  
+            
             <Footer/>
                 </>
             }/>
@@ -87,10 +87,10 @@ const Home = () => {
             <Route path='/school' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>school</p>'/>}/>
             <Route path='/notebookAndDiaries' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>notebook</p>'/>}/>
             <Route path='/cart'element={<Cart cartList={cartList} subTotal={subTotal} onUpdateCartQty={handleUpdateCartQty} onEmptyCart={handleEmptyCart} onRemoveFromCart={handleRemoveFromCart} />}/>
-
+            <Route path='/checkout' element={<Checkout/>}></Route>
             </Routes>
 
-        
+            </div>
         </Router>
     )
 }
