@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 import '../css/ItemList.css'
 function Cart({ cartList, subTotal, onUpdateCartQty, onEmptyCart, onRemoveFromCart }) {
   return (<>
-    <div className='ItemList'>
+  <div className='ItemList'>
       {
         cartList.map((cartItem) => (
           <CartItem key={cartItem.id} cartItem={cartItem} onUpdateCartQty={onUpdateCartQty} onRemoveFromCart={onRemoveFromCart}/>
