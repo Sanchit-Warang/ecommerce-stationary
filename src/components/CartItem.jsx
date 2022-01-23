@@ -2,11 +2,10 @@ import React from 'react';
 import { Card, Button } from "react-bootstrap";
 import '../css/Item.css'
 function CartItem({ cartItem, onRemoveFromCart, onUpdateCartQty }) {
-  let img = `./images - Copy/${cartItem.image.filename}`
   return (<div>
     <Card className="item2">
         <div className="container">
-        <Card.Img variant="top" src={img} className='img'/>
+        <Card.Img variant="top" src={cartItem.image.url} className='img'/>
         <Card.Body>
             <div className="cardText">
             <Card.Title>{cartItem.name}</Card.Title>
