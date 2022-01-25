@@ -10,6 +10,7 @@ import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
 import { commerce } from '../lib/commerce.js'
 import Cart from '../components/Cart'
 import Checkout from '../components/Checkout'
+import Aboutus from '../components/Aboutus'
 
 
 const Home = () => {
@@ -88,6 +89,7 @@ const Home = () => {
             <Route path='/notebookAndDiaries' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>notebook</p>'/>}/>
             <Route path='/cart'element={<Cart cartList={cartList} subTotal={subTotal} onUpdateCartQty={handleUpdateCartQty} onEmptyCart={handleEmptyCart} onRemoveFromCart={handleRemoveFromCart} />}/>
             <Route path='/checkout' element={<Checkout/>}></Route>
+            <Route path='/aboutus' element={<Aboutus/>}></Route>
             </Routes>
 
             </div>

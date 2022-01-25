@@ -16,7 +16,9 @@ const navbar = ({ totalItemsCart }) => {
          <img src="/logo.png"/>
          </Link>
          </a>
+         <Link to='/aboutus'>
          <div className="about"> About </div>
+         </Link>
          <div class="dropdown">
   <button class="dropbtn">Categories</button>
   <div class="dropdown-content">
