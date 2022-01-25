@@ -6,7 +6,7 @@ function Item({ item , onAddToCart }) {
         <div>
             <Card className="item">
                 <div className="container">
-                <Card.Img variant="top" src={img} className='img'/>
+                <Card.Img variant="top" src={item.image.url} className='img'/>
                 <Card.Body>
                     <div className="cardText">
                     <Card.Title>{item.name}</Card.Title>
