@@ -2,8 +2,10 @@ import React from "react";
 import "../css/aboutus.css";
 import {FaFacebookF,FaTwitter,FaYoutube,FaInstagram}from "react-icons/fa";
 
+
 const Aboutus = () => {
   return (
+    
     <div class="section">
       <div class="container">
         <div class="content-section">

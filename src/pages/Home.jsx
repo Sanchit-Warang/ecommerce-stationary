@@ -89,7 +89,9 @@ const Home = () => {
             <Route path='/notebookAndDiaries' element={<ItemList items = {items} onAddToCart={handleAddToCart} category='<p>notebook</p>'/>}/>
             <Route path='/cart'element={<Cart cartList={cartList} subTotal={subTotal} onUpdateCartQty={handleUpdateCartQty} onEmptyCart={handleEmptyCart} onRemoveFromCart={handleRemoveFromCart} />}/>
             <Route path='/checkout' element={<Checkout/>}></Route>
-            <Route path='/aboutus' element={<Aboutus/>}></Route>
+           
+            <Route  path='/aboutus' element={<Aboutus/>}></Route>
+            
             </Routes>
 
             </div>
