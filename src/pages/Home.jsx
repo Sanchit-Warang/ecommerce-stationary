@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Data from '../components/Data.js'
+// import Data from '../components/Data.js'
 import ItemList from '../components/ItemList'
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
